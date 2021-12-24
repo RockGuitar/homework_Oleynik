@@ -24,7 +24,7 @@ public class Main {
     int allMass = bananMass*5 + molokoMass*2 + icecreamMass*2 + eggMass*4;
     float kgMass = allMass/1000F;
     System.out.println("Вес завтрака в граммах: " + allMass);
-    System.out.println("Вес завтрака в кг: " + kgMass + " кг и " + allMass%1000 + " грамм");
+    System.out.println("Вес завтрака в кг: " + kgMass + " кг");
 
     int goal = 7000;
     int lose1 = 250;
@@ -45,7 +45,7 @@ public class Main {
 
     var diffMasha = (zpMashaNew - zpMasha)*12;
     double diffDenis = (zpDenisNew - zpDenis)*12;
-    double diffKristina = (zpKristinaNew - zpKristina)*12;
+    double diffKristina = (zpKristinaNew - zpKristina)*12f;
     System.out.println("Новый доход Маши в рублях: " + zpMashaNew + ". Рост дохода в рублях за год: " + diffMasha);
     System.out.println("Новый доход Дениса в рублях: " + zpDenisNew + ". Рост дохода в рублях за год: " + diffDenis);
     System.out.println("Новый доход Кристины в рублях: " + zpKristinaNew + ". Рост дохода в рублях за год: " + diffKristina);
