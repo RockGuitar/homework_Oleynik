@@ -45,7 +45,7 @@ public class Main {
 
     var diffMasha = (zpMashaNew - zpMasha)*12;
     double diffDenis = (zpDenisNew - zpDenis)*12;
-    double diffKristina = (zpKristinaNew - zpKristina)*12f;
+    double diffKristina = (zpKristinaNew - zpKristina)*12;
     System.out.println("Новый доход Маши в рублях: " + zpMashaNew + ". Рост дохода в рублях за год: " + diffMasha);
     System.out.println("Новый доход Дениса в рублях: " + zpDenisNew + ". Рост дохода в рублях за год: " + diffDenis);
     System.out.println("Новый доход Кристины в рублях: " + zpKristinaNew + ". Рост дохода в рублях за год: " + diffKristina);
